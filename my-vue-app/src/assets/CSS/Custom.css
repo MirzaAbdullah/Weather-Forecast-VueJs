@@ -1,0 +1,77 @@
+#app {
+    font-family: monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  h1, h2 {
+    font-weight: normal;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0; 
+  }
+  
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  a {
+    color: #42b983;
+  }
+
+  body{
+    background-image: url('../Images/weatherWallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .white-textColor{
+    color:white !important;
+  }
+  
+  .wheat-textColor{
+    color:wheat !important;
+  }
+
+  #TodayTemprature{
+    margin-top: 6% !important;
+  }
+
+  #ForecastTemprature{
+    margin-top: 3% !important;
+  }
+
+  .fontSize_32PX{
+    font-size: 32px;
+  }
+
+  .fontSize_24PX{
+    font-size: 24px;
+  }
+
+  .padElement{
+    padding: 0px 1% 0px 1% !important;
+  }
+
+  #nprogress .bar {
+    background: red !important;
+}
+
+#nprogress .peg {
+    box-shadow: 0 0 10px red, 0 0 5px red !important;
+}
+
+#nprogress .spinner-icon {
+    border-top-color: red !important;
+    border-left-color: red !important;
+    display: none !important;
+}
+
+.input_Background_OnError{
+  background-color: lightpink !important;
+}
